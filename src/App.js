@@ -43,7 +43,7 @@ function Msg(props) {
   return (
     <div className="msg-container">
       <img src={props.image} className="image" alt="Profile-pic" />
-      <h1>Hello {props.name}</h1>
+      <h1>Welcome {props.name}</h1>
       <h2>Start editing to see some magic happen!</h2>
       <Counter />
     </div>
